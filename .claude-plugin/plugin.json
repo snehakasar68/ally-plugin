@@ -1,0 +1,24 @@
+{
+  "name": "a11y-auditor",
+  "version": "0.1.0",
+  "description": "Audits any front-end (HTML, CSS, JS, React, Vue, Svelte, Angular) for WCAG 2.2 issues using axe-core and a keyboard probe, then fixes the source and verifies the result.",
+  "author": {
+    "name": "Mohit Salunke",
+    "email": "mohit.salunke@wishtreetech.com"
+  },
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "wcag",
+    "axe-core",
+    "frontend"
+  ],
+  "mcpServers": {
+    "a11y-audit": {
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/servers/audit/index.mjs"
+      ]
+    }
+  }
+}

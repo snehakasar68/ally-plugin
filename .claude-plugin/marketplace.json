@@ -1,0 +1,15 @@
+{
+  "name": "wishtree-a11y",
+  "description": "Accessibility tooling for Claude Code",
+  "owner": {
+    "name": "Sneha Kasar",
+    "email": "sneha.kasar@wishtreetech.com"
+  },
+  "plugins": [
+    {
+      "name": "a11y-auditor",
+      "source": "./",
+      "description": "WCAG 2.2 accessibility & UX auditor: axe-core + keyboard probe, fixes JSX/HTML source and verifies the result."
+    }
+  ]
+}
